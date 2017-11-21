@@ -34,8 +34,8 @@ library(raster)
 K <- backend()
 # Parameters --------------------------------------------------------------
 
-base_image_path <- "/Users/rafaeldesouza/Downloads/style.jpg"
-style_reference_image_path <- "neural-style-style.jpg"
+base_image_path <- "/Users/rafaeldesouza/Downloads/grito.jpg"
+style_reference_image_path <- "/Users/rafaeldesouza/Downloads/grt.jpg"
 iterations <- 10
 
 # these are the weights of the different loss components
