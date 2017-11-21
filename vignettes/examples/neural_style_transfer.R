@@ -30,10 +30,11 @@
 library(keras)
 library(purrr)
 library(R6)
+library(raster)
 K <- backend()
 # Parameters --------------------------------------------------------------
 
-base_image_path <- "neural-style-base-img.png"
+base_image_path <- "/Users/rafaeldesouza/Downloads/style.jpg"
 style_reference_image_path <- "neural-style-style.jpg"
 iterations <- 10
 
